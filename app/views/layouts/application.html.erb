@@ -16,7 +16,9 @@
         <li class="nav-item btn btn-outline-primary"><%= link_to "New Article", new_article_path %></li>
       </nav>
       <main class="px-5">
-        <%= yield %>
+        <div class="py-5 mt-2" >
+          <%= yield %>
+        </div>
       </main>
     <footer class="d-flex justify-content-center p-3 navigation">@2024 Created By Luca Gattamelata</footer>
   </body>
